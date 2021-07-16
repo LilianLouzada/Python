@@ -1,0 +1,15 @@
+#Faça um programa que peça um número inteiro e determine se ele é ou não um número primo. 
+#Um número primo é aquele que é divisível somente por ele mesmo e por 1.
+a = int(input('Me dê um número:'))
+lili = 0
+i = 0
+while i <= a or lili < 2:
+    i = i + 1
+    x = a % i
+    if x == 0:
+        lili = lili + 1
+
+if lili <= 2:
+    print(f'{a} é um número primo')
+else:
+    print(f'{a} não é um número primo')
