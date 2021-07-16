@@ -1,0 +1,13 @@
+## Faça um programa que, dado um conjunto de N números, determine o menor valor, o maior valor e a soma dos valores.
+a = int(input('Insira aqui a quantidade de números que vão existir no conjunto:'))
+conj = 0
+soma = 0
+numero = []
+while a > conj:
+    b = int(input('Digite o número:'))
+    conj = conj + 1
+    soma = b + soma
+    numero.append(b)
+print('Maior número:', max(numero))
+print('Menor número:', min(numero))
+print(f'O valor da soma dos números digitados é:{soma}')
